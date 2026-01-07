@@ -7,16 +7,15 @@ first_name: Rohan
 middle_name: 
 last_name: Dekate
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out via email for research collaborations, opportunities, or questions about my work.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Rohan Dekate - Software Engineer and Developer
+  PhD Student in Mechanical Engineering at Purdue University | Research in Scientific Machine Learning, Computational Imaging, and Numerical Methods | Eli Lilly and Company and Purdue University Research Alliance Center (LPRC)
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: software engineer, developer, portfolio, personal website # add your own keywords or leave empty
+keywords: scientific machine learning, computational imaging, numerical methods, deep learning, mechanical engineering, phd student, purdue university, research, scientific computing, uncertainty quantification, multi-fidelity learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://rohandekate10.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -87,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Rohan Dekate's Blog # blog_name will be displayed in your blog page
-blog_description: Research and development in Deep Learning, Scientific Computing, and Mechanical Engineering
+blog_description: Research insights and developments in Scientific Machine Learning, Computational Imaging, Numerical Methods, and Mechanical Engineering
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -260,8 +259,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Dekate]
+  first_name: [Rohan, R.]
 
   style: apa
   locale: en

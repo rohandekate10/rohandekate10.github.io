@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects, industry work, and technical contributions in Scientific Machine Learning, Computational Imaging, and Mechanical Engineering.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
