@@ -1,13 +1,13 @@
-"SAE":
-  url: https://www.sae.org/
-  color: "#e30613"
+# "SAE":
+#   url: https://www.sae.org/
+#   color: "#e30613"
 
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+# "PhysRev":
+#   url: https://journals.aps.org/
 
-"Vision":
-  color: "#009f36"
+# "Vision":
+#   color: "#009f36"
