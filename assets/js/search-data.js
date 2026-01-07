@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects, industry work, and technical contributions in Scientific Machine Learning, Computational Imaging, and Mechanical Engineering.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -39,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "My detailed CV showcasing my experience in Mechanical Engineering, Deep Learning, and Software Development. Includes my education, work experience, publications, and technical skills.",
+          description: "My detailed CV showcasing my experience in Mechanical Engineering, Scientific Machine Learning, and Computational Imaging. Includes my education, work experience, publications, research projects, and technical skills.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Teaching experience and course materials from my time as a Graduate Teaching Assistant at Purdue University.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-recipient-of-the-harnek-and-malkit-gill-graduate-mechanical-engineering-scholarship-november-2023-trophy",
+          title: 'Recipient of the Harnek and Malkit Gill Graduate Mechanical Engineering Scholarship, November 2023....',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-research-presentation-at-cigp-symposium",
+          title: 'Research Presentation at CIGP Symposium',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-presented-research-poster-titled-multi-level-deep-operator-learning-with-applications-to-distributional-shift-uncertainty-quantification-and-multi-fidelity-learning-at-the-office-of-interdisciplinary-graduate-programs-oigp-spring-symposium-may-2024",
+          title: 'Presented research poster titled “Multi-level Deep Operator Learning with Applications to Distributional Shift,...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -511,13 +511,6 @@ ninja.data = [{
           window.open("https://github.com/rohandekate10", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
@@ -537,13 +530,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
