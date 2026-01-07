@@ -435,12 +435,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-recipient-of-the-harnek-and-malkit-gill-graduate-mechanical-engineering-scholarship-november-2023-trophy",
+      },{id: "news-recipient-of-the-harnek-and-malkit-gill-graduate-mechanical-engineering-scholarship-november-2023-trophy",
           title: 'Recipient of the Harnek and Malkit Gill Graduate Mechanical Engineering Scholarship, November 2023....',
           description: "",
           section: "News",},{id: "news-research-presentation-at-cigp-symposium",
@@ -518,18 +513,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/rohanmdekate", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=BF5J_XYAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
