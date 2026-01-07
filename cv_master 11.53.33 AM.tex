@@ -1,0 +1,370 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+% \usepackage{hyperref} \hypersetup{colorlinks, citecolor=black, filecolor=black, linkcolor=black, urlcolor=black }
+% \usepackage[colorlinks=true,allcolors=black]{hyperref}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    {\Huge \scshape Rohan Dekate} \\ \vspace{1pt}
+    Beau Jardin Apartments, 2550 Yeager Road, West Lafayette, IN - 47906, USA \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +1-765-767-1840 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{dekate@purdue.edu}} ~ 
+    \href{https://linkedin.com/in/rohanmdekate}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/rohanmdekate}}  ~
+    \href{https://github.com/rohandekate10}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/rohandekate10}}
+\end{center}
+
+%-----------OBJECTIVE-----------
+\section{Objective}
+To pursue a research-oriented career for the advancement of a holistic vision of technology and sustainability; using and improving my set of skills as an engineer and striving to facilitate mutual progress in society.
+
+%-----------EDUCATION-----------
+\section{Education}
+    
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Purdue University}{Expected May 2027}
+      {PhD in Mechanical Engineering $|$ GPA 3.85/4.0}{West Lafayette, Indiana}
+        \resumeItemListStart
+
+        \resumeItem{Affiliation: \textbf{Eli Lilly and Company and Purdue University Research Alliance Center (LPRC)}.}
+        \resumeItem{Focus: Scientific Machine Learning for Pharma Applications, Computational Imaging, Numerical Methods.}
+        
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Purdue University}{May 2024}
+      {Master of Science in Mechanical Engineering (MSME) $|$ GPA 3.9/4.0}{West Lafayette, Indiana}
+        \resumeItemListStart
+        
+        \resumeItem{Concentration: Computational Science \& Engineering.}
+        \resumeItem{Master's Thesis: \href{https://hammer.purdue.edu/articles/thesis/MULTI-LEVEL_DEEP_OPERATOR_LEARNING_WITH_APPLICATIONS_TO_DISTRIBUTIONAL_SHIFT_UNCERTAINTY_QUANTIFICATION_AND_MULTI-FIDELITY_LEARNING/25766247}{\textit{Multi-level Deep Operator Learning with Applications to Distributional Shift, Uncertainty Quantification, and Multi-fidelity Learning.}} Advisors: Dr. Guang Lin.} 
+        \resumeItem{Coursework: Numerical Methods in Mechanical Engineering, Deep Learning, Autonomous Systems, Scientific Machine Learning, Reinforcement Learning.}
+        \resumeItem{Graduate Teaching Assistant: Numerical Methods in Mechanical Engineering (Fall '23), Thermodynamics (Spring '24).}
+        
+        \resumeItemListEnd
+      %\vspace{-5pt}
+      
+    % \resumeSubheading
+    %   {The University of Texas at Austin \& Great Learning}{October 2022}
+    %   {\href{https://eportfolio.mygreatlearning.com/rohan-dekate2}{Post Graduate Program in Artificial Intelligence and Machine Learning (AIML) $|$ GPA 4.21/5 $|$ Rank \#3}}{Online}
+    %     \resumeItemListStart
+        
+    %     % \resumeItem{Cohort Rank: 3/93.}
+    %     \resumeItem{\href{https://github.com/rohandekate10/GreatLearning-AIML_Projects}{Course Modules} - Applied Statistics, Supervised \& Unsupervised Learning, Featurization, Model Selection \& Tuning, Recommendation Systems, Deep Learning, Computer Vision, Natural Language Processing.}
+    %     \resumeItem{Capstone Project: Computer Vision - Classification \& Localization on Stanford Cars Dataset.}
+        
+    %     \resumeItemListEnd
+    
+    % \resumeSubheading{Indian Institute of Technology, Madras}{October 2021}{\href{https://1drv.ms/u/s!An_UqzagyYX3jxwwqprD_DRqHqh8}{Electric Vehicles and Renewable Energy} $|$ Aggregate 94\%}{Online} 
+      
+    \resumeSubheading
+      {Rashtrasant Tukadoji Maharaj Nagpur University}{May 2017}
+      {Bachelor of Engineering (BE) in Mechanical Engineering $|$ CGPA 9.14$/$10 $|$ Department Rank \#4/78}{Nagpur, India}
+        \resumeItemListStart
+        \resumeItem{Bachelor's Thesis: \textit{Design \& Development of Inline Pin Straightening Station}. Advisor: Prof. P.B. Shiwalkar.}
+        \resumeItem{Interned for Government of India's RGSTC-TIFAC MSME at Rama Pins Pvt. Ltd.}
+        \resumeItem{Designed and fabricated an All Terrain Vehicle(ATV) for Mahindra BAJA SAEINDIA 2016 student design competition.}
+            \resumeItemListStart
+                \resumeItem{Developed a \textit{Catalytic Converter based on Non-Noble Metals} \& presented findings in a technical poster.}
+            \resumeItemListEnd \vspace{3.5pt}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------Certification-----------
+\section{Professional Coursework}
+    
+    \resumeSubHeadingListStart
+      
+    \resumeSubheading
+      {The University of Texas at Austin \& Great Learning}{October 2022}
+      {\href{https://eportfolio.mygreatlearning.com/rohan-dekate2}{Post Graduate Program in Artificial Intelligence and Machine Learning (AIML) $|$ GPA 4.21/5 $|$ Rank \#3}}{Online}
+        \resumeItemListStart
+        
+        % \resumeItem{Cohort Rank: 3/93.}
+        \resumeItem{\href{https://github.com/rohandekate10/GreatLearning-AIML_Projects}{Course Modules} - Applied Statistics, Supervised \& Unsupervised Learning, Featurization, Model Selection \& Tuning, Recommendation Systems, Deep Learning, Computer Vision, Natural Language Processing.}
+        \resumeItem{Capstone Project: Computer Vision - Classification \& Localization on Stanford Cars Dataset.}
+        
+        \resumeItemListEnd
+    
+    \resumeSubheading{Indian Institute of Technology, Madras}{October 2021}{\href{https://1drv.ms/u/s!An_UqzagyYX3jxwwqprD_DRqHqh8}{Electric Vehicles and Renewable Energy} $|$ Aggregate 94\%}{Online} 
+    
+    \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Research Publications}
+\begin{itemize}[leftmargin=0.3in,]
+\setlength\itemsep{-0.1em}
+    \item \small{Dekate, Rohan, et al. “\href{https://saemobilus.sae.org/content/2021-26-0209/}{\textit{Model Based Design, Simulation and Experimental Validation of SCR Efficiency Model}}," SAE International Journal of Advances and Current Practices in Mobility 4.2021-26-0209 (2021): 870-875.}
+    % \vspace{1pt}
+    \item \small{Dekate, Rohan, et al. “\href{https://doi.org/10.4271/2021-26-0191}{\textit{Calibration and Optimization of OBD Strategies for Selective Catalytic Reduction Systems for BSVI Application.}},” No. 2021-26-0191. SAE Technical Paper, 2021.}
+ \end{itemize}
+
+ %-----------Research Projects & Presentations-----------
+\section{Research Projects \& Presentations}
+\begin{itemize}[leftmargin=0.3in,]
+\setlength\itemsep{-0.1em}
+    \item \small{Presented research poster titled \textit{Multi-level Deep Operator Learning with Applications to Distributional Shift, Uncertainty Quantification, and Multi-fidelity Learning} at the Office of Interdisciplinary Graduate Programs (OIGP) Spring Symposium, May 2024.}
+    \item \small{Presented research poster titled \textit{Multi-fidelity Learning with Stacked Deep Operator Networks and Conformalized Uncertainty Quantification} at the Computational Interdisciplinary Graduate Programs (CIGP) Symposium, April 2024.}
+    \item \small{Presented research titled \textit{On the Measurement of Cylindrical Forms by Bent Shaft Survey Map} at All India Seminar on Quality Progress, 2017.}
+    % \item \small{Developed a \textit{Catalytic Converter based on Non-Noble Metals} \& presented findings in a technical poster at Mahindra BAJA SAEINDIA 2016 student design competition.}
+    \item \small{Published a book titled \textit{Birds of Rajbhavan}, a field guide on birds and their seasonal occurrences spotted in Governor of Maharashtra's Nagpur residence, December 2015.}
+    \item \small{Authored an analytical report on \textit{Vehicle Pooling: Environment Conservation or Economic Necessity} for the college newsletter REFLECTION, Vol. MMXIV, April-May-June 2014.}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Cummins}{May 2023 -- Aug. 2023}
+      {Electronic Controls Software Engineer Intern}{Columbus, Indiana}
+        \resumeItemListStart
+        \resumeItem{Conducted battery charging regression tests on new software to verify AC, DC, Pantograph and Induction Charging.}
+        \resumeItem{Completed 2 Design Change Requests (DCRs) to rectify the behavior of Operator Interfaces and SoC Diagnostics.}
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Stellantis}{Nov. 2021 –- July 2022}
+      {Senior Engineer}{Chennai, India}
+        \resumeItemListStart
+        \resumeItem{Resolved 30 automatic hybrid transmission controls issues and released 5 feature design changes to improve reliability.}
+        \resumeItem{Communicated design recommendations driven by test data to vendor partners.}
+        % \resumeItem{Coordinated controls software changes via development, analysis, and integration with suppliers and stakeholders}
+        \resumeItem{Created detailed project plans to track software release timelines and verify software features for 2 model years.}
+        \resumeItem{Managed validation issues to satisfy requirements by technical coordination with suppliers and stakeholders.}
+        \resumeItem{Prepared Design Verification Plan and Report for validating software changes.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Mahindra \& Mahindra Ltd.}{Aug. 2017 –- Aug. 2021}
+      {Senior Engineer}{Chennai, India}
+        \resumeItemListStart
+        \resumeItem{Engineered Selective Catalytic Reduction(SCR) and On-Board Diagnostics(OBD) to meet emission norms.}
+        \resumeItem{Optimized SCR calibration for above 85 \% NOx conversion efficiency and AdBlue consumption within 2L/1000 km.}
+        \resumeItem{Designed NOx prediction model with $\pm$ 10 \% tolerance, using MATLAB \& Simulink to substitute NOx sensor.}
+        \resumeItem{Saved \$250 per vehicle by substituting NOx sensor with model and reduced cost by over \$1 million per vehicle model.}
+        \resumeItem{Analyzed data to build a PowerBI dashboard for real-time monitoring of KPIs for Mahindra’s fleet of 100+ test vehicles.}
+        \resumeItem{Conducted engine and vehicle level testing for 2 engines and 3 vehicle models in test cells and nationwide expeditions.}
+        \resumeItem{Won 4 Spot Awards for exceptional work in project delivery, troubleshooting issues, and initiating novel methods.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Rama Pins Pvt. Ltd.}{May 2016 –- April 2017}
+      {Intern}{Nagpur, India}
+        \resumeItemListStart
+        \resumeItem{Eliminated cylindricity defects above 500 microns arising from induction hardening of cylindrical steel (EN8D) bars.}
+        \resumeItem{Fabricated a frugal cylindricity measurement setup and quantified defects via statistical measurements \& CAE analysis.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Hum Aspen Wellness Pvt. Ltd.}{Feb. 2017 –- May 2017}
+      {Intern}{Nagpur, India}
+        \resumeItemListStart
+        \resumeItem{Designed a wearable health \& wellness device based on principles of biomimicry using SolidWorks.}
+        \resumeItem{Developed prototype for client through clay modelling and 3D printing.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Navratna Industries}{April 2017 –- May 2017}
+      {Intern}{Nagpur, Maharashtra, India}
+      \resumeItemListStart
+       \resumeItem{Designed SolidWorks sheet metal CAD models from engineering drawings.}
+    \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+    
+%-----------Honors & Awards----------
+\section{Honors \& Awards}
+\begin{itemize}[leftmargin=0.3in,]
+\setlength\itemsep{-0.1em}
+    \resumeItem{Recipient of the Harnek and Malkit Gill Graduate Mechanical Engineering Scholarship, November 2023.}
+    \resumeItem{Awarded Professional Grant of $\$ 562.5$ from Purdue Graduate Student Government for Summer Internship, August 2023.}
+    \resumeItem{Selected as an Industrial Research Intern for Rama Pins Pvt. Ltd. under the aegis of the Department of Science \& Technology, Government of India's RGSTC-TIFAC-MSME Internship Scheme, 2016-2017.}
+    \resumeItem{Awarded Earthian 2014 Winner, Wipro’s Sustainability Program, with prize money of INR 1,50,000/-.
+    \vspace{-8pt}
+    \begin{itemize}
+        \item Led the research and authored reports on \href{https://bit.ly/3ADdGYX}{\textit{Carbon Footprint}}, \href{https://bit.ly/3KBRbsi}{\textit{Circular Economy}}, \href{https://bit.ly/3KBRbsi}{\textit{Tragedy of the Commons}}.
+    \end{itemize}} 
+\end{itemize}
+
+%-----------COURSES, WORKSHOPS & CONFERENCES ATTENDED: ------------
+\section{Courses, Workshops \& Conferences Attended}
+\begin{itemize}[leftmargin=0.3in,]
+\setlength\itemsep{-0.1em}
+    \item \small{Completed Online Course on “Climate Change: Learning for Action" by Terra.do, Pandas Cohort, May 2021.}
+    \item \small{Attended webinar by MathWorks on “Virtual Calibration and Testing of Vehicle Powertrain using Simulation based Approach", September 2020.}
+    \item \small{Attended 6-day Short Term Training Program (STTP) on “Finite Element Modelling: Research and Industrial Applications" (FEMRIA) through Ansys by VNIT Nagpur, June 2017.}
+    \item \small{Attended “Agenda for Survival", a summer certificate course - conducted by Centre for Science and Environment, New Delhi, June 1-30, 2015.}
+    \vspace{-8pt}
+    \begin{itemize}
+        \item Designed \& Created the \href{https://agenda4survival15.wordpress.com/}{\textit{FOOTPRINTS}} website for participants to publish blogs.
+        \vspace{-3pt}
+        \item Footprints magazine correspondent \& photographer.
+    \end{itemize}
+\end{itemize}
+
+%-----------INVOLVEMENT---------------
+\section{Leadership \& Extracurricular Activities}
+    \resumeSubHeadingListStart
+
+        \resumeSubheading{Purdue Official Mechanical Engineering Graduate Association (OMEGA)}{June 2023 -- April 2024}{Industry Chair}{West Lafayette, Indiana}
+            \resumeItemListStart
+                \resumeItem{Organized a Reverse Career Fair in collaboration with Sandia National Laboratories, November 2023.}
+                \resumeItem{Organized Factory Visit to Subaru of Indiana Automotive Inc., December 2023 and April 2024.}
+            \resumeItemListEnd
+            
+        \resumeSubheading{Purdue Graduate Student Government}{May 2023 -- April 2024}{Vice Chair of Professional Grants \& Grant Reviewer}{West Lafayette, Indiana}
+            \resumeItemListStart
+                \resumeItem{Screened applications, created reviewer surveys and budgets to award grants of up to \$750.}
+                \resumeItem{Conducted a workshop for graduate students on \textit{Writing a Successful Professional Grant Application}.}
+            \resumeItemListEnd
+            
+        \resumeSubheading{Mahindra BAJA SAEINDIA}{May 2018 -- Feb. 2020}{Alumni Coordinator, Editor}{Chandigarh/Pithampur, India}
+            \resumeItemListStart
+                \resumeItem{Compiled \& Evaluated scores of 200+ participating teams and created content for BAJACME magazine.}
+            \resumeItemListEnd
+        
+        
+        \resumeSubheading{REEF (Shri Ramdeobaba college Engineers for Environment Forum)}{Sep. 2013 -- June 2017}{Principal Secretary, Green Ambassador}{Nagpur, India}
+            \resumeItemListStart
+                \resumeItem{Led the planning \& execution of events such as Global Tiger Day, Bird-watching Trips, How Green is Your Campus?}
+                \resumeItem{Awarded “Exceptional Achievement in Leadership and Research” in 2016.}
+                \resumeItem{Created \& Edited blog - \href{https://rcoemreef.wordpress.com/}{\textit{REEFLog}} on WordPress and authored REEF’s Annual Reports in \href{https://bit.ly/3QeytYA}{\textit{2013-14}}, \href{https://bit.ly/3CRjzob}{\textit{2014-15}}, \href{https://bit.ly/3QeL5iL}{\textit{2015-16}}.}
+            \resumeItemListEnd
+            
+    \resumeSubHeadingListEnd
+%\vspace{-18pt}
+
+%-----------Technical Skills-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Coding/Engineering Tools: }{Python, PyTorch, MATLAB, Simulink, ETAS INCA \& MDA, Concerto, Uniplot.}
+     % \textit{Comfortable:} Simulink.} 
+     \\
+     \textbf{CAD/CAE Packages: }{SolidWorks, Creo, Autodesk Inventor, AutoCAD, CATIA, Ansys.}
+     % \textit{Comfortable:} AutoCAD, CATIA, Ansys, HyperWorks.} 
+     \\
+     \textbf{Microsoft Office Suite:}{ Word, Excel, PowerPoint, PowerBI.} \\
+    }}
+ \end{itemize}
+
+\end{document}
